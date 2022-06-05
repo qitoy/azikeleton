@@ -1,3 +1,8 @@
+if exists('g:loaded_azikeleton')
+  finish
+endif
+let g:loaded_azikeleton = v:true
+
 " from codefirst/aquaskk
 let g:azikeleton_dict = {
 	\ '@': 'katakana',
